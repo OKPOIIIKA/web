@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>ТОМСКБАНК</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/form.css">
+
+<body>
+
+    </div>
+    <div class="page">
+        <div class="wrapper">
+            <header class="header">
+                <h1 class="header__logo"><a href="#">ТОМСКБАНК</a></h1>
+                <span class="header__number">8 (888) 888-88-88</span>
+                <button onclick="show('block')" class="regButton">Регистрация</button>
+                <div onclick="show('none')" id="gray"></div>
+                <div id="window">
+                    <img class="close" src="img/close.png" alt="" onclick="show('none')">
+                    <div class="form">
+                        <h2>Регистрация</h2>
+                        <form action="index.html" name="f1">
+                            <input type="text" placeholder="Имя" name="name1" class="input">
+                            <input type="text" placeholder="Фамилия" name="name2" class="input">
+                            <input type="email" placeholder="email" name="email1" class="input">
+                            <input type="email" placeholder="Подтвердите email" name="email2" class="input">
+                            <input type="password" placeholder="Пароль" name="pass1" class="input">
+                            <input type="password" placeholder="Подтвердите пароль" name="pass2" class="input">
+                            <input type='tel' placeholder="Мобильный телефон" name="tel" class="input">
+                            <input type="radio" name="radio1"> Мужчина <input type="radio" name="radio1" class="radio">
+                            Женщина
+                            <input type="submit" value="Регистрация" name="sab" class="input"> Нажимая «Регистрация», вы
+                            подтверждаете, что прочитали и согласны с нашими Условиями Пользования и Политикой
+                            Конфиденциальности.
+                    </div>
+            </header>
+            <div class="catalog">
+                <h2 id="products">Потребительские кредиты</h2>
+                <ul class="list">
+                    <li class="list__item active" data-id="all">Все программы</li>
+                    <li class="list__item" data-id="cash">Кредит наличными</li>
+                    <li class="list__item" data-id="ref">Рефинансирование</li>
+                    <li class="list__item" data-id="another">Другие</li>
+                </ul>
+                <div class="blocks"></div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__text">
+                    <div class="footer__location">
+                        <img src="img/white.svg" alt="">
+                        <span>Томск</span>
+                    </div>
+                    <span class="footer__number">8 (888) 888-88-88</span>
+                    <div class="footer__social">
+                        <a href="#"><img src="img/tele.svg" alt=""></a>
+                        <a href="#"><img src="img/tw.svg" alt=""></a>
+                        <a href="#"><img src="img/social-network-twitter_m 1.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/data.js"></script>
+    <script src="js/button.js"></script>
+    <script src="js/dynamic.js"></script>
+    <script src="js/filter.js"></script>
+</body>
+
+</html>
